@@ -3,11 +3,13 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // importing components
 import HeroSection from './components/HeroSection';
+import Exploration from './components/Exploration';
 
 function App() {
   return (
     <div>
       <HeroSection />
+      <Exploration />
     </div>
   );
 }
