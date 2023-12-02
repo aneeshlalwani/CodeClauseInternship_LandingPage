@@ -5,12 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HeroSection from './components/HeroSection';
 import Exploration from './components/Exploration';
 import About from './components/About';
+import FoodStreet from './components/FoodStreet';
 
 function App() {
   return (
     <div>
       <HeroSection />
       <About />
+      <FoodStreet />
       <Exploration />
     </div>
   );
