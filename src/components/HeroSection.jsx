@@ -10,7 +10,7 @@ const HeroSection = () => {
 
     }
     const description = {
-        paddingTop: '18%',
+        paddingTop: '10%',
         paddingLeft: '5%',
     }
     const headLine = {
@@ -23,6 +23,9 @@ const HeroSection = () => {
   return (
     <>
         <div style={heroStyle}>
+            <div className="title py-5 px-5 text-white">
+                <h1><span className='px-2' style={{background: "#023020"}}>Pakistani</span> Traditional Food</h1>
+            </div>
             <div className='' style={description}>
             <h1 className='text-white ps-2' style={headLine}>Satisfy Your Cravings, Ignite Your Senses!</h1>
             <h3 className='text-white fw-bold ps-3'>Taste the Extraordinary, Embrace the Unforgettable! Get Ready to Melt in Foodie Heaven!</h3>   
