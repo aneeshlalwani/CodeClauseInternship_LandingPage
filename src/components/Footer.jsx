@@ -9,9 +9,6 @@ const Footer = () => {
     display: "flex",
     gap: "40%"
   };
-//   const copyRightStyle = {
-
-//   }
   return (
     <>
       <div className="bg-dark pt-3">

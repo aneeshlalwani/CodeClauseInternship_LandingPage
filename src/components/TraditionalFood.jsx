@@ -4,7 +4,7 @@ import burnsRoad from "../assests/images/burns-road.jpg";
 import melodyPark from "../assests/images/melody_park.jpg";
 import lakshmiChowk from "../assests/images/lakshmi-chowk.jpg";
 
-const FoodStreet = () => {
+const TraditionalFood = () => {
   const titleStyle = {
     fontFamily: "Dancing Script, cursive, Poppins, sans-serif",
     color: "white",
@@ -82,4 +82,4 @@ const FoodStreet = () => {
   );
 };
 
-export default FoodStreet;
+export default TraditionalFood;
