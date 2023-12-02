@@ -69,7 +69,7 @@ const FoodStreet = () => {
           >
             <div className="py-5">
               <h3 className="fs-2" style={titleStyle}>
-                Lakshmi Chow
+                Lakshmi Chowk
               </h3>
               <h2 className="fs-1" style={titleStyle}>
                 Lahore

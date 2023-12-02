@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection';
 import Exploration from './components/Exploration';
 import About from './components/About';
 import FoodStreet from './components/FoodStreet';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <FoodStreet />
       <Exploration />
+      <Footer />
     </div>
   );
 }
