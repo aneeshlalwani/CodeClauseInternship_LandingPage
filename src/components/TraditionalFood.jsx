@@ -1,31 +1,36 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import burnsRoad from "../assests/images/burns-road.jpg";
-import melodyPark from "../assests/images/melody_park.jpg";
-import lakshmiChowk from "../assests/images/lakshmi-chowk.jpg";
+import biryani from "../assests/images/biryani.jpg";
+import sajji from "../assests/images/lamb-sajji.jpg";
+// import chapliKabab from "../assests/images/chapli-kebab.jpeg";
+import chicken from "../assests/images/balochi-sajji.jpg";
 
 const TraditionalFood = () => {
   const titleStyle = {
     fontFamily: "Dancing Script, cursive, Poppins, sans-serif",
     color: "white",
+    fontWeight: "bold",
+    background: "rgba(0, 0, 0, 0.3)",
   };
   const karachi = {
-    background: `url(${burnsRoad})`,
+    background: `url(${biryani})`,
     backgroundSize: "cover",
   };
   const islamabad = {
-    background: `url(${melodyPark})`,
+    background: `url(${sajji})`,
     backgroundSize: "cover",
+    backgroundRepeat: "no-repeat"
   };
   const lahore = {
-    background: `url(${lakshmiChowk})`,
+    background: `url(${chicken})`,
     backgroundSize: "cover",
+    backgroundRepeat: "no-repeat"
   };
   return (
     <>
       <div className="container-fluid bg-dark">
         <h2 className="text-center text-white pt-2">
-          Pakistan's Most Popular Food Streets
+          Pakistan's Desi Food
         </h2>
         <Row className="text-center px-2">
           <Col
@@ -36,11 +41,8 @@ const TraditionalFood = () => {
             style={karachi}
           >
             <div className="py-5">
-              <h3 className="fs-2" style={titleStyle}>
-                Burns Road
-              </h3>
               <h2 className="fs-1" style={titleStyle}>
-                Karachi
+                Biryani
               </h2>
             </div>
           </Col>
@@ -52,11 +54,8 @@ const TraditionalFood = () => {
             style={islamabad}
           >
             <div className="py-5">
-              <h3 className="fs-2" style={titleStyle}>
-                Melody Park
-              </h3>
               <h2 className="fs-1" style={titleStyle}>
-                Islamabad
+                Lamb Sajji
               </h2>
             </div>
           </Col>
@@ -68,11 +67,8 @@ const TraditionalFood = () => {
             style={lahore}
           >
             <div className="py-5">
-              <h3 className="fs-2" style={titleStyle}>
-                Lakshmi Chowk
-              </h3>
               <h2 className="fs-1" style={titleStyle}>
-                Lahore
+                Balouchi Chicken Sajji
               </h2>
             </div>
           </Col>
