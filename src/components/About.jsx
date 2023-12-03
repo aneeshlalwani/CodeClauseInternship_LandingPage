@@ -4,7 +4,6 @@ const About = () => {
         background: "#000"
     }
     const ImageSectionStyle = {
-        
         background: "orange",
         borderRadius: "10px",
         width: "80%",

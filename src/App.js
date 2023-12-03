@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css';
 // importing react bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 // importing components
