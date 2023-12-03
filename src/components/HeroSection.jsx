@@ -6,8 +6,6 @@ const HeroSection = () => {
         height: '100vh',
         background: `url(${heroImage})`,
         backgroundSize: 'cover',
-        backdropFilter: 'brightness(10%)',
-
     }
     const description = {
         paddingTop: '10%',
@@ -28,7 +26,7 @@ const HeroSection = () => {
             </div>
             <div className='' style={description}>
             <h1 className='headline text-white ps-2' style={headLine}>Satisfy Your Cravings, Ignite Your Senses!</h1>
-            <h3 className='text-white fw-bold ps-3'><span className='sub-headline' style={{background: "rgba(0,0,0,0.5)"}}>Taste the Extraordinary, Embrace the Unforgettable! Get Ready to Melt in Foodie Heaven!</span></h3>   
+            <h3 className='text-white ps-3'><span className='sub-headline' style={{background: "rgba(0,0,0,0.5)"}}>Taste the Extraordinary, Embrace the Unforgettable! Get Ready to Melt in Foodie Heaven!</span></h3>   
             </div>
             
         </div>

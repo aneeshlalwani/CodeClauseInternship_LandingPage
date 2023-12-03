@@ -5,17 +5,17 @@ const About = () => {
     }
     const ImageSectionStyle = {
         background: "orange",
-        borderRadius: "10px",
-        width: "80%",
+        borderRadius: "20px",
+        width: "90%",
     }
     const foodImage = {
         width: "50%",
         height: "auto",
-        objectFit: "cover",
+        backgroundSize: "cover",
     }
   return (
     <>
-      <div style={aboutStyle}>
+      <div className='py-3' style={aboutStyle}>
         <h2 className="text-center text-white pt-4" style={{fontFamily: 'Source Code Pro, monospace'}}>
           Explore the Pakistan's traditional food
         </h2>
