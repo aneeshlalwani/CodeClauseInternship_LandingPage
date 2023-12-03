@@ -17,7 +17,7 @@ const About = () => {
     <>
       <div className='py-3' style={aboutStyle}>
         <h2 className="text-center text-white pt-4" style={{fontFamily: 'Source Code Pro, monospace'}}>
-          Explore the Pakistan's traditional food
+          Pakistan's traditional food
         </h2>
         <div className="py-3 text-center mx-auto" style={ImageSectionStyle}>
         <p className="px-5 fs-5 fw-bold" style={{fontFamily: 'Nova Square, sans-serif'}}>
